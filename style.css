@@ -483,6 +483,31 @@ blockquote footer {
 
 
 
+/* For desktop */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* For tablets and smaller desktop screens */
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* For phones */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
+
+
 
 
 
