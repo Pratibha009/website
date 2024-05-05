@@ -398,6 +398,53 @@ blockquote footer {
 }
 
 
+/* Default styles */
+/* Add your existing CSS styles here */
+
+/* Media queries for responsiveness */
+/* Adjust styles for screens smaller than 768px (phones) */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    main .hero h2 {
+        font-size: 24px;
+    }
+
+    main .hero p {
+        font-size: 16px;
+    }
+
+    main .destinations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main .destinations .destination {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
 
 
 
