@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Travel Payment</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Explorer</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destination.html">Destinations</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="">...</a>
+                        <div class="dropdown-content">
+                            <a href="booking.html">Booking</a>
+                            <a href="review.html">Review</a>
+                            <a href="payment.html">Payment</a>
+                        </div>
+                    
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="text-center mt-4"> Secure Payment</h1>
+        <div class="container3">
+        <form class="payment-form">
+            <div class="form-group">
+                <label for="cardholderName">Cardholder Name</label>
+                <input type="text" class="form-control" id="cardholderName" placeholder="Enter cardholder name" required>
+            </div>
+
+            
+            
+            
+            <!-- Payment form fields go here -->
+            <!-- Example: Card number, expiration date, CVV, etc. -->
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number" required>
+            </div>
+            <!-- <div class="payment-amount">
+                <p>Total Amount: <span class="amount">$500</span></p>
+                <p>Currency: <span class="currency">USD</span></p>
+            </div> -->
+            
+            <div class="form-row">
+                <div class="col">
+                    <label for="expirationDate">Expiration Date</label>
+                    <input type="text" class="form-control" id="expirationDate" placeholder="MM/YY" required>
+                </div>
+                <div class="col">
+                    <label for="cvv">CVV</label>
+                    <input type="text" class="form-control" id="cvv" placeholder="123" required>
+                </div>
+            </div>
+            
+            <!-- Add other form fields (expiration date, CVV, etc.) -->
+            <button type="submit" class="btn btn-primary btn-block">Make Payment</button>
+        </form>
+    </div>
+
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
