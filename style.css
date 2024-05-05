@@ -445,6 +445,45 @@ blockquote footer {
 
 
 
+/* For desktop */
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.destination1,
+.destination2,
+.destination3 {
+    width: 30%;
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .destination1,
+    .destination2,
+    .destination3 {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+/* For phones */
+@media (max-width: 480px) {
+    .destination1,
+    .destination2,
+    .destination3 {
+        width: 100%;
+    }
+}
+
+
+
+
 
 
 
