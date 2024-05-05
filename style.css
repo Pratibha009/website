@@ -238,3 +238,89 @@ footer a:hover {
     height: 390px;
     font-size: 25px;
 }
+
+
+/* styles.css */
+
+/* Body background color */
+.booking-body {
+    background-color: #29292c;
+}
+
+/* Center the form container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #334c5d; */
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form fields */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Style the "Book Now" button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Featured destinations section */
+.row .col-md-4 {
+    padding: 10px;
+    text-align: center;
+}
+
+.row .col-md-4 img {
+    max-width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials section */
+blockquote {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote footer {
+    font-weight: bold;
+}
+
+/* CTA section */
+.text-center a.btn-primary {
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+.container.mt-5{
+    background-color: #334c5d;
+}
+
+
