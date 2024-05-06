@@ -7,33 +7,32 @@
     <title>Travel Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>.
     <style>
-        @media only screen and (max-width: 768px) {
-    .container3 {
-        flex-direction: column;
-    }
-    
-    .destination1,
-    .destination2,
-    .destination3 {
-        width: 100%;
-    }
-}
+        /* Additional CSS */
+        .destination1 img,
+        .destination2 img,
+        .destination3 img {
+            max-width: 100%;
+            height: auto;
+        }
 
-/* Media query for mobile */
-@media only screen and (max-width: 480px) {
-    .container {
-        padding: 0 10px;
-    }
-    
-    .destination1,
-    .destination2,
-    .destination3 {
-        padding: 10px;
-    }
-}
+        /* Media queries */
+        @media only screen and (max-width: 768px) {
+            .container3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .destination1,
+            .destination2,
+            .destination3 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
     </style>
+</head>
 
 <body>
     <header>
@@ -52,7 +51,6 @@
                             <a href="review.html">Review</a>
                             <a href="payment.html">Payment</a>
                         </div>
-
                     </li>
                 </ul>
             </nav>
@@ -60,41 +58,25 @@
     </header>
     <div class="container3">
         <div class="destination1" style="text-align: center;">
-            <h2>venice, Italy </h2>
-            <img src="Rialto-Bridge.jpg" alt="venice,Italy " height="350px" width="500px">
-            <p>The Rialto Bridge (Italian: Ponte di Rialto; Venetian: Ponte de Rialto) is a remarkable architectural gem
-                in Venice, Italy.
-                The Rialto Bridge spans the Grand Canal, connecting the sestieri (districts) of San Marco and San Polo.
-                It’s the oldest of the four bridges spanning the Grand Canal
-            </p>
+            <h2>Venice, Italy</h2>
+            <img src="Rialto-Bridge.jpg" alt="Venice, Italy" height="350px" width="500px">
+            <p>The Rialto Bridge (Italian: Ponte di Rialto; Venetian: Ponte de Rialto) is a remarkable architectural gem in Venice, Italy. The Rialto Bridge spans the Grand Canal, connecting the sestieri (districts) of San Marco and San Polo. It’s the oldest of the four bridges spanning the Grand Canal.</p>
         </div>
         <div class="destination2">
             <h2>Paris, France</h2>
-            <img src="Eiffel-Tower.avif" alt="Eiffel-Tower" height="350px" width="500px">
-            <p>The Eiffel Tower (French: La Tour Eiffel) is an iconic wrought-iron lattice tower located on the Champ de
-                Mars in Paris, France.The Eiffel Tower is arguably the most popular paid attraction in world. Some seven
-                million people visitit each year. The tower features a museum, several restaurants, and the Gustave
-                Eiffel Reception Room,which provides space for business conferences, expositions, cultural events, and
-                social gatherings.
-            </p>
+            <img src="Eiffel-Tower.avif" alt="Eiffel Tower" height="350px" width="500px">
+            <p>The Eiffel Tower (French: La Tour Eiffel) is an iconic wrought-iron lattice tower located on the Champ de Mars in Paris, France. The Eiffel Tower is arguably the most popular paid attraction in the world. Some seven million people visit it each year. The tower features a museum, several restaurants, and the Gustave Eiffel Reception Room, which provides space for business conferences, expositions, cultural events, and social gatherings.</p>
         </div>
         <div class="destination3">
-            <h2>Hamberg, Germany</h2>
-            <img src="hamberg.avif" alt="Speicherstadt" height="400px">
-            <p>The Speicherstadt is the world’s largest warehouse complex, spanning an area of 260,000 square metres.
-                The Speicherstadt (German pronunciation: [ˈʃpaɪ̯çɐˌʃtat]), also known as the “City of Warehouses,” is a
-                remarkable historical district in Hamburg, Germany. Its distinctive feature is that the buildings stand
-                on timber-pile foundations, specifically oak logs.
-            </p>
+            <h2>Hamburg, Germany</h2>
+            <img src="hamberg.avif" alt="Hamburg, Germany" height="400px">
+            <p>The Speicherstadt is the world’s largest warehouse complex, spanning an area of 260,000 square metres. The Speicherstadt (German pronunciation: [ˈʃpaɪ̯çɐˌʃtat]), also known as the “City of Warehouses,” is a remarkable historical district in Hamburg, Germany. Its distinctive feature is that the buildings stand on timber-pile foundations, specifically oak logs.</p>
         </div>
-    
     </div>
 
     <footer id="destination">
         <p class="text-center text-muted">© 2024 Company, Inc</p>
-      </footer>
-
-</body>
+    </footer>
 </body>
 
 </html>
