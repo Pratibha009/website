@@ -403,7 +403,7 @@ blockquote footer {
 
 /* Media queries for responsiveness */
 /* Adjust styles for screens smaller than 768px (phones) */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     header {
         text-align: center;
     }
@@ -443,10 +443,10 @@ blockquote footer {
     }
 }
 
-
+ */
 
 /* For desktop */
-.container3 {
+/* .container3 {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -457,9 +457,9 @@ blockquote footer {
 .destination3 {
     width: 30%;
 }
-
+ */
 /* For tablets */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .container3 {
         flex-direction: column;
         align-items: center;
@@ -470,45 +470,45 @@ blockquote footer {
         width: 80%;
         margin-bottom: 30px;
     }
-}
+} */
 
 /* For phones */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .destination1,
     .destination2,
     .destination3 {
         width: 100%;
     }
-}
+} */
 
 
 
 /* For desktop */
-.container {
+/* .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+ */
 /* For tablets and smaller desktop screens */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .container {
         flex-direction: column;
         text-align: center;
     }
 }
-
+ */
 /* For phones */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .container {
         padding: 0 15px;
     }
-}
+} */
 
 
 
 /* For desktop */
-.container {
+/* .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -520,10 +520,10 @@ blockquote footer {
         flex-direction: column;
         text-align: center;
     }
-}
+} */
 
 /* For phones */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .container {
         padding: 0 15px;
     }
@@ -536,7 +536,7 @@ blockquote footer {
     #textbox {
         width: 100%;
     }
-}
+} */
 
 
 
