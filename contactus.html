@@ -69,6 +69,54 @@
         <p>&copy; ❤️ 2024 Travel Explorer</p>
     </div>
 </footer>
+
+    <script>
+        // Get the input fields and textarea
+        const nameInput = document.querySelector('input[placeholder="Enter your name"]');
+        const emailInput = document.querySelector('input[placeholder="Enter your email"]');
+        const phoneInput = document.querySelector('input[placeholder="Enter your phone no"]');
+        const messageTextarea = document.querySelector('#textbox');
+        const submitButton = document.querySelector('button[type="submit"]');
+        const resetButton = document.querySelector('button[type="reset"]');
+    
+        // Add an event listener to the submit button
+        submitButton.addEventListener('click', saveInfo);
+    
+        // Add an event listener to the reset button
+        resetButton.addEventListener('click', resetForm);
+    
+        // Function to save the information
+        function saveInfo() {
+            const name = nameInput.value;
+            const email = emailInput.value;
+            const phone = phoneInput.value;
+            const message = messageTextarea.value;
+    
+            // Save the information to local storage
+            localStorage.setItem('name', name);
+            localStorage.setItem('email', email);
+            localStorage.setItem('phone', phone);
+            localStorage.setItem('message', message);
+    
+            // Display an alert to confirm the information has been saved
+            alert('Information saved!');
+        }
+    
+        // Function to reset the form
+        function resetForm() {
+            // Reset input fields and textarea
+            nameInput.value = '';
+            emailInput.value = '';
+            phoneInput.value = '';
+            messageTextarea.value = '';
+    
+            // Optionally, you can also clear local storage here if needed
+            // localStorage.clear();
+    
+            // Display an alert to confirm the form has been reset
+            alert('Form reset!');
+        }
+    </script>
 </body>
 
 </html>
